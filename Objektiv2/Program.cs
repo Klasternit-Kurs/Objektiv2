@@ -23,7 +23,6 @@ namespace Objektiv2
 
 			nekaOsoba = new Osoba("Trecko", "Treckovic", "12345");
 			lista.Add(nekaOsoba);
-
 			foreach (Osoba o in lista)
 			{
 				Console.WriteLine($"{o.Ime} {o.Prezime} {o.BrojTelefona} {o.Adresa}");
@@ -56,7 +55,7 @@ namespace Objektiv2
 
 		public string Ime;
 		public string Prezime;
-		public string Adresa;
+		public string Adresa = "Nesto Nesto";
 		public string BrojTelefona;
 	}
 }
